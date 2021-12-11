@@ -12,7 +12,7 @@ setEltContents(
 
 `
 <img id="logo" src="/assets/Logo.svg" class="noselect"></img>
-<p id="logo-text">NILE</p>
+<p id="logo-text">TOUR NILE</p>
 <div id='links' class="noselect">
 	<a href="/">Intro</a>
 	<a href="/tour-sites">Sites</a>
