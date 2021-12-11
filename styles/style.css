@@ -3,6 +3,7 @@
 body {
 	text-align: center;
 	position: relative;
+
 }
 
 #article {
@@ -32,8 +33,12 @@ body {
 
 #images a img, a.image img {
 	width:100%;
+	
 }
 
+a {
+	color:#2f2f2f;
+} 
 
 
 #images a p, a.image p {
@@ -101,7 +106,7 @@ div#logo-container {
 
 p#logo-text {
     white-space: nowrap;
-	vertical-align: baseline;
+	/* vertical-align: -20px; */
 	margin-left: 20px;
 	font-size: 1.3em;
 	color:white;
