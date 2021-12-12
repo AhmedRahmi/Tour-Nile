@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400&display=swap');
 
+button.purchase {
+	
+	background-color:#00aaff;
+	color:white;
+	border: 0px solid transparent;
+	border-radius: 2px;
+	width:100%;
+	font-size:4vw;
+}
+
+button.purchase::after {
+	content:'Purchase';
+}
+
 body {
 	text-align: center;
 	position: relative;
@@ -13,11 +27,12 @@ body {
 	position: relative;
 }
 
-#article * {
+#article *, article {
 	position: relative;
 }
 
 #images {
+	position: relative;
 	display: flex;
 	width:100%;
 	flex-direction: row;
@@ -32,8 +47,8 @@ body {
 }
 
 #images a img, a.image img {
-	width:100%;
-	
+	width:90%;
+	margin: none;
 }
 
 a {
@@ -200,14 +215,35 @@ div#links a:hover, div#drop > *:hover {
 	background-color: #aaa;
 }
 
-@media only screen and (max-width:450px) {
+
+#article {
+	margin-left:5%;
+	width:70%;
+}
+
+
+@media only screen and (max-width:551px) {
 	div#links {
 		display:none;
 	}
 
 	#images {
+		text-align: center;
+		align-items: center;
 		flex-direction: column;
+		width:90%;
 	}
+
+	a.image {
+		width:80%;
+		margin: none;
+	}
+	
+	#images a.image, a.image {
+		width:100%;
+	}
+
+	
 
 	body {
 		text-align:center;
@@ -215,8 +251,9 @@ div#links a:hover, div#drop > *:hover {
 
 	#article {
 		text-align:center;
-		margin-right:10%;
-		margin-left:10%;
+		align-items: center;
+		margin-right:0;
+		margin-left:0;
 		width:100%;
 
 	}
@@ -226,16 +263,10 @@ div#links a:hover, div#drop > *:hover {
 	}
 }
 
-@media only screen and (min-width:450px) {
+@media only screen and (min-width:550px) {
 	div#links-drop {
 		display:none;
-	}
-
-	
-
-	
-
-	
+	}	
 }
 
 div#links-drop:hover div#drop a {
@@ -245,11 +276,6 @@ div#links-drop:hover div#drop a {
 div#drop a{
 	visibility: hidden;
 	padding:5px;
-}
-
-#article {
-	margin-left: 5%;
-	width:70%;
 }
 
 

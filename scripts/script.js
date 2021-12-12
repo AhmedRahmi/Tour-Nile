@@ -14,14 +14,16 @@ setEltContents(
 <img id="logo" src="/assets/Logo.svg" class="noselect"></img>
 <p id="logo-text">TOUR NILE</p>
 <div id='links' class="noselect">
-	<a href="/">Intro</a>
+	<a href="/buy-tickets">Purchase</a>
+	<a href="/">Home</a>
 	<a href="/tour-sites">Sites</a>
 	<a target='_blank' href="https://mail.google.com/mail/u/0/?fs=1&to=arahmi27@dartmouthschools.org&tf=cm">Contact</a>
 </div>
 <div id="links-drop">
 	<div id="stack"><p>Links</p>
 	<div id='drop' class="noselect">
-		<a href="/">Intro</a>
+		<a href="/buy-tickets">Purchase</a>
+		<a href="/">Home</a>
 		<a href="/tour-sites">Sites</a>
 		<a target='_blank' href="https://mail.google.com/mail/u/0/?fs=1&to=arahmi27@dartmouthschools.org&tf=cm">Contact</a>
 	</div></div>
