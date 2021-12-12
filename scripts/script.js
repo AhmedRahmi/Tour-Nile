@@ -32,14 +32,7 @@ setEltContents(
 
 setEltContents('#article', 'Abt-Tour', 
 `This tour is a once in a lifetime experience 
-and you may be your only chance to see the 
-wonders of the ancient Egyptian world. 
-We see the magnificent Abu Simbel of the Ramses II reign. 
-and the accomplishments of Hatshepsut
-in her own temple. We will see the giza 
-pyramids built by Khufu and his line. 
-These wonders cannot be shown by images or videos. 
-You have to see these wonders in person.`)
+and you may be your only chance to see the wonders of the ancient Egyptian world. The way of the pharoahs, the powerful kings that ruled egypt, can only be seen by seeng their in person sites. We see the magnificent Abu Simbel of the Ramses II reign. and the accomplishments of Hatshepsut in her own temple. We will see the giza pyramids built by Khufu and his line. These wonders cannot be shown by images or videos. You have to see these wonders in person. `)
 
 setEltContents('#article', 'Tour-Site1',
 `<h2>Abu Simbel</h2>
