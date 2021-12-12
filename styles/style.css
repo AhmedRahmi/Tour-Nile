@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400&display=swap');
+div.articlet {
+	margin-bottom: 100px;
+}
 
 button.purchase {
 	
-	background-color:#00aaff;
+	background-color:#0af;
 	color:white;
 	border: 0px solid transparent;
 	border-radius: 2px;
-	width:100%;
+	width:70%;
+	padding:12px;
 	font-size:4vw;
+}
+
+button.purchase:hover {
+	background-color: #09e;
 }
 
 button.purchase::after {
