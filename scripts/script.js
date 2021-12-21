@@ -1,3 +1,7 @@
+function rickRoll () {
+	window.location.replace('/rickroll')
+}
+
 function setEltContents(sel, value, contents) {
 	
 	document.querySelector(sel).outerHTML = 
